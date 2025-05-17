@@ -1,0 +1,35 @@
+pourquoi créer un env ?
+
+- pour faciliter le développement et le partage des projet en python ;
+
+comment créer un env dans un projet ou dossier ?
+
+-il suffi d'exécuter la commande :👉 python3 -m venv nom_de_votre environnement 👈 dans le chemin voulu ;
+
+comment démarrer ou activer votre env ?
+
+-il suffit d'exécuter la commande : 👉 ./env/Scripts/activate 👈, vous allez voir un (env) au début de votre chemin , ca veux dire que le env est activé ;
+
+comment désactiver le env une fois votre session terminé ?
+
+-c'est simple il suffit d'exécuter la commande : 👉 deactivate 👈;
+
+Une fois tous ca terminer vous pouvez installer tous votre dependance python !
+
+			------------------------------------------------
+
+Maintenant nous allons voir comment on va récupérer tous les dépendances installés dans un env pour que d'autre personne de votre équipe puisse facilement installer les même dépendance avec précision et facilité ;
+
+- pour cela exécuter la commande :👉 pip freeze > requirements.txt 👈 : 
+
+Explication du commande , cette commande va stocker tous les dépendances installés dans un fichier texte appelé" requirements.txt dans la racine de votre projet , vous y verrez alors dedans toutes votre dépendances ainsi que la version exacte de chaque dépendance ;
+
+
+Ok ? C'est bien beau tous ca mais comment d'autre gens vont faire pour installer les dépendances qui est dans mon resuirements.txt ???🤔
+
+-Ne vous inquiéter pas 😎, on a pensé a tous 😉! 
+-Pour cela exécuter la commande : 👉 pip install -r requirements.txt 👈, 
+
+Explication de la commande , Cette commande ci-dessus va installer tous les dépendances dans le requirements.txt de votre projet (si vous l'avez envoyer a votre proche ,équipe ou amis et bien c'est eux qui doivent exécuter cette commande ) ;
+
+J'espère que toutes a été claire , ainsi donc s'achève notre tutoriel , bonne dev a vous les gars !🫡
