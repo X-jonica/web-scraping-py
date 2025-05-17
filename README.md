@@ -4,7 +4,16 @@ Ce script Python extrait les titres des œuvres de Jules Verne depuis la page we
 
 ## 📌 Prérequis
 
-Assurez-vous d'avoir installé les bibliothèques suivantes avant d'exécuter le script :
+Assurez-vous d activer le env en utilisant la commande : 
 
-```bash
-pip install requests beautifulsoup4
+./env/Scripts/activate
+
+
+Une fois votre env activer , Assurez-vous de bien installé les bibliothèques necessaire qui se trouve dans le requirements.txt avec la commande : 
+
+pip install -r requirements.txt
+
+
+Une fois tous ca terminer , executer la commande : 
+
+py scrap_jules_verne.py
